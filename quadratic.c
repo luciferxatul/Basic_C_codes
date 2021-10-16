@@ -3,7 +3,7 @@
 int main()
 {
     double j1,j2,sqD,D,a,b,c; //sqD is  floating value of square root of D//
-    printf("enter the values of a b and c of a quardratic eqn.\n");
+    printf("enter the values of a b and c of a quardratic eqn which you want to create.\n");
     scanf("%lf %lf %lf", &a,&b,&c);
     printf("your eqn is : \n%0.1lfx^2+%0.1lfx+%0.1lf\n", a,b,c);
     D=(b*b)-(4*a*c);
