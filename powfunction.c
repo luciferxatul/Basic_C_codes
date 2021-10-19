@@ -8,12 +8,12 @@ int power(int n,int p)
 }
 int main()
 {
-  int p,po,pn;
+  int a,b,c;
   printf("\nEnter the number");
-  scanf("%d",&p);
+  scanf("%d",&a);
   printf("\nEnter the power of the number");
-  scanf("%d",&po);
-  po=power(p,po);
-  printf("%d to the power %d is %d",p,po,pn);
+  scanf("%d",&b);
+  po=power(a,b);
+  printf("%d to the power %d is %d",a,b,c);
   return 0;
 }
