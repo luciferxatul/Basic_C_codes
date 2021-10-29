@@ -6,7 +6,7 @@ int main()
     number = rand() % 100 + 1;
     do
     {
-        printf("guess the no. between 1 to 100\n");
+        printf("guess the number between 1 to 100\n");
         scanf("%d", &guess);
         if (guess > number)
         {
@@ -19,6 +19,7 @@ int main()
         }
         else
         {
+            //print n guesses.
             printf("you guessed it in %d attempts \n", nguesses);
         }
         nguesses++;
